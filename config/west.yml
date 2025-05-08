@@ -11,7 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: dbboard
+    - name: dbboard2
       remote: dbboard-base
       revision: main
       # import: west.yml
