@@ -19,5 +19,9 @@
 #
 ---
 include:
-  - board: dbboard_left
-  - board: dbboard_right
+  - board: nice_nano_v2
+    shield: dbboard_left
+    artifact-name: dboard_left_2
+  - board: nice_nano_v2
+    shield: dbboard_right
+    artifact-name: dboard_right_2
