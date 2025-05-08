@@ -19,5 +19,5 @@
 #
 ---
 include:
-  - board: glove80_lh
-  - board: glove80_rh
+  - board: dbboard_left
+  - board: dbboard_right
