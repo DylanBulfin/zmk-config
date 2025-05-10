@@ -58,51 +58,51 @@
 
         nav {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&kp ESC    &kp N1    &kp N2    &kp N3     &kp N4      &kp N5    &kp N6    &kp N7         &kp N8     &kp N9     &kp N0  &none
+&kp TAB    &none     &none     &none      &none       &none     &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &none   &none
+&kp LCTRL  &kp LALT  &kp LGUI  &kp LCTRL  &kp LSHIFT  &none     &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &none   &none
+&kp LSHFT  &none     &none     &none      &none       &none     &none     &none          &none      &none      &none   &none
+&none      &kp BSPC  &kp RET   &none      &none       &none     &none     &none          &none      &none      &none   &none
             >;
         };
 
         num {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&kp ESC    &none     &none     &none      &none      &none    &none      &none   &none   &none      &none      &none
+&kp TAB    &none     &none     &none      &none      &none    &kp LBKT   &kp N7  &kp N8  &kp N9     &kp RBKT   &none
+&kp LCTRL  &kp LALT  &kp LGUI  &kp LCTRL  &kp LSHFT  &none    &kp DOT    &kp N4  &kp N5  &kp N6     &kp EQUAL  &kp SQT
+&kp LSHFT  &none     &none     &none      &none      &none    &kp GRAVE  &kp N1  &kp N2  &kp N3     &kp BSLH   &none
+&kp LSHFT  &none     &none     &none      &none      &none    &none      &none   &none   &kp MINUS  &kp N0     &kp LSHFT
             >;
         };
 
         sym {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&kp ESC    &none     &none     &none      &none      &none    &none          &none         &none          &none          &none         &none
+&kp TAB    &none     &none     &none      &none      &none    &kp LS(LBRC)   &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)   &kp LS(RBRC)  &kp DOWN
+&kp LCTRL  &kp LALT  &kp LGUI  &kp LCTRL  &kp LSHFT  &none    &kp LS(GT)     &kp LS(DLLR)  &kp LS(PRCNT)  &kp LS(CARET)  &kp LS(PLUS)  &kp LS(DQT)
+&kp LSHFT  &none     &none     &none      &none      &none    &kp LS(TILDE)  &kp LS(EXCL)  &kp LS(AT)     &kp LS(POUND)  &kp LS(PIPE)  &none
+&kp LSHFT  &none     &none     &none      &none      &none    &none          &none         &none          &kp LS(UNDER)  &kp LS(RPAR)  &kp LSHFT
             >;
         };
 
         func {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none       &none     &none    &none   &none   &none           &none  &none      &none      &none     &none     &none
+&kp TAB     &kp F12   &kp F7   &kp F8  &kp F9  &kp DEL         &none  &none      &none      &none     &none     &none
+&kp LCTRL   &kp F11   &kp F4   &kp F5  &kp F6  &kp CAPSLOCK    &none  &kp LSHFT  &kp LCTRL  &kp LGUI  &kp LALT  &none
+&kp LSHIFT  &kp F10   &kp F1   &kp F2  &kp F3  &none           &none  &none      &none      &none     &none     &none
+&kp LSHIFT  &kp BSPC  &kp RET  &none   &none   &none           &none  &none      &none      &none     &none     &none
             >;
         };
 
-        bt {
+        meta {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none       &none  &none  &none  &none  &bt0     &bt0   &none  &none  &none  &none  &none
+&none       &none  &none  &none  &none  &bt1     &bt1   &none  &none  &none  &none  &none
+&sys_reset  &none  &none  &none  &none  &bt2     &bt2   &none  &none  &none  &none  &sys_reset
+&none       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
             >;
         };
 
