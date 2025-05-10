@@ -9,7 +9,7 @@
 
 / {
     macros {
-        bt0: bt1 {
+        bt0: bt0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 0 &out OUT_BLE>;
