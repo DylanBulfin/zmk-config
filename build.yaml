@@ -25,3 +25,5 @@ include:
   - board: nice_nano_v2
     shield: dbboard_right
     artifact-name: dboard_right
+  - board: nice_nano_v2
+    shield: settings_reset
