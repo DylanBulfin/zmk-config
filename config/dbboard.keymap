@@ -52,7 +52,7 @@
 &kp TAB    &kp Q             &kp W         &kp F   &kp P   &kp B     &kp J   &kp L   &kp U       &kp Y       &kp SEMI      &kp BSLH
 &kp LCTRL  &kp A             &kp R         &kp S   &kp T   &kp G     &kp M   &kp N   &kp E       &kp I       &kp O         &kp SQT
 &kp LSHFT  &kp Z             &kp X         &kp C   &kp D   &kp V     &kp K   &kp H   &kp COMMA   &kp DOT     &kp FSLH      &kp BSLH
-&kp LSHFT  &clt 2 BACKSPACE  &clt 3 ENTER  &mo 6   &kp N5  &sl 5     &sl 5   &kp N8  &kp ESCAPE  &clt 4 TAB  &clt 1 SPACE  &kp LSHFT
+&kp LSHFT  &clt 2 BACKSPACE  &clt 3 ENTER  &mo 7   &kp N5  &sl 5     &sl 5   &kp N8  &kp ESCAPE  &clt 4 TAB  &clt 1 SPACE  &kp LSHFT
             >;
         };
 
@@ -118,11 +118,11 @@
 
         ohr {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&kp DOT    &kp N0    &kp N9   &kp N8     &kp N7  &kp N6    &none  &none  &none  &none  &none  &none
+&kp BSLH   &kp SEMI  &kp Y    &kp U      &kp L   &kp J     &none  &none  &none  &none  &none  &none
+&kp LCTRL  &kp O     &kp I    &kp E      &kp N   &kp M     &none  &none  &none  &none  &none  &none
+&kp LSHFT  &kp FSLH  &kp DOT  &kp COMMA  &kp H   &kp K     &none  &none  &none  &none  &none  &none
+&none      &none     &none    &none      &none   &none     &none  &none  &none  &none  &none  &none
             >;
         };
     };
