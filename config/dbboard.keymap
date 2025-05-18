@@ -49,7 +49,8 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <150>;
-            hold-while-undecided;
+            flavor = "tap-preferred";
+            retro-tap;
         };
 
         lh_hrm: lh_hrm {
@@ -96,11 +97,11 @@
 
         base {
             bindings = <
-&kp ESC    &kp N1              &kp N2            &kp N3           &kp N4           &kp N5                      &kp N6      &kp N7           &kp N8           &kp N9          &kp N0              &kp DOT
-&kp TAB    &kp Q               &kp W             &kp F            &kp P            &kp B                       &kp J       &kp L            &kp U            &kp Y           &kp SEMI            &kp BSLH
-&kp LCTRL  &lh_hrm LALT A      &lh_hrm LGUI R    &lh_hrm LCTRL S  &lh_hrm LSHFT T  &kp G                       &kp M       &rh_hrm LSHFT N  &rh_hrm LCTRL E  &rh_hrm LGUI I  &rh_hrm LALT O      &kp SQT
-&kp LSHFT  &kp Z               &kp X             &kp C            &kp D            &kp V                       &kp K       &kp H            &kp COMMA        &kp DOT         &kp FSLH            &kp BSLH
-           &st_ht LSHFT LSHFT  &clt 2 BACKSPACE  &clt 3 ENTER     &clt 6 ESCAPE    &caps_word  &sl 5    &sl 5  &caps_word  &clt 7 ESCAPE    &clt 4 TAB       &clt 1 SPACE    &st_ht LSHFT LSHFT
+&kp ESC    &kp N1              &kp N2            &kp N3           &kp N4         &kp N5                      &kp N6      &kp N7         &kp N8           &kp N9          &kp N0              &kp DOT
+&kp TAB    &kp Q               &kp W             &kp F            &kp P          &kp B                       &kp J       &kp L          &kp U            &kp Y           &kp SEMI            &kp BSLH
+&kp LCTRL  &lh_hrm LALT A      &lh_hrm LGUI R    &lh_hrm LCTRL S  &kp T          &kp G                       &kp M       &kp N          &rh_hrm LCTRL E  &rh_hrm LGUI I  &rh_hrm LALT O      &kp SQT
+&kp LSHFT  &kp Z               &kp X             &kp C            &kp D          &kp V                       &kp K       &kp H          &kp COMMA        &kp DOT         &kp FSLH            &kp BSLH
+           &st_ht LSHFT LSHFT  &clt 2 BACKSPACE  &clt 3 ENTER     &clt 6 ESCAPE  &caps_word  &sl 5    &sl 5  &caps_word  &clt 7 ESCAPE  &clt 4 TAB       &clt 1 SPACE    &st_ht LSHFT LSHFT
             >;
         };
 
