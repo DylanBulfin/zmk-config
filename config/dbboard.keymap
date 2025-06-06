@@ -149,11 +149,11 @@
 
         meta {
             bindings = <
-&none        &none       &none  &none  &none         &none                  &none  &none         &none  &none  &none       &none
-&none        &none       &none  &none  &out OUT_USB  &bt0                   &bt0   &out OUT_USB  &none  &none  &none       &none
-&none        &none       &none  &none  &out OUT_BLE  &bt1                   &bt1   &out OUT_USB  &none  &none  &none       &none
-&bootloader  &sys_reset  &none  &none  &none         &bt2                   &bt2   &none         &none  &none  &sys_reset  &bootloader
-             &none       &none  &none  &none         &none  &none    &none  &none  &none         &none  &none  &none
+&none        &none       &none  &none           &none         &none                  &none  &none         &none           &none  &none       &none
+&none        &none       &none  &none           &out OUT_USB  &bt0                   &bt0   &out OUT_USB  &none           &none  &none       &none
+&none        &none       &none  &none           &out OUT_BLE  &bt1                   &bt1   &out OUT_USB  &none           &none  &none       &none
+&bootloader  &sys_reset  &none  &bt BT_CLR_ALL  &bt BT_CLR    &bt2                   &bt2   &bt BT_CLR    &bt BT_CLR_ALL  &none  &sys_reset  &bootloader
+             &none       &none  &none           &none         &none  &none    &none  &none  &none         &none           &none  &none
             >;
         };
 
