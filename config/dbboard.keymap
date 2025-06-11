@@ -99,7 +99,7 @@
 
         base {
             bindings = <
-&kp ESC    &kp N1              &kp N2            &kp N3           &kp N4         &kp N5                      &kp N6      &kp N7         &kp N8           &kp N9          &kp N0              &kp DOT
+&kp ESC    &kp N1              &kp N2            &kp N3           &kp N4         &kp N5                      &kp N6      &kp N7         &kp N8           &kp N9          &kp N0              &kp DEL
 &kp TAB    &kp Q               &kp W             &kp F            &kp P          &kp B                       &kp J       &kp L          &kp U            &kp Y           &kp SEMI            &kp BSLH
 &kp LCTRL  &lh_hrm LALT A      &lh_hrm LGUI R    &lh_hrm LCTRL S  &kp T          &kp G                       &kp M       &kp N          &rh_hrm LCTRL E  &rh_hrm LGUI I  &rh_hrm LALT O      &kp SQT
 &kp LSHFT  &kp Z               &kp X             &kp C            &kp D          &kp V                       &kp K       &kp H          &kp COMMA        &kp DOT         &kp FSLH            &kp BSLH
